@@ -1,10 +1,13 @@
 import React from 'react'
+import Header from '../Header/Header'
 import './Hero.css'
 
 const Hero = () => {
   return (
     <div className="hero">
-      <div className='left-h'>Left Side</div>
+      <div className='left-h'>
+        <Header/>
+      </div>
       <div className='right-h'>Right Side</div>
     </div>
   )
